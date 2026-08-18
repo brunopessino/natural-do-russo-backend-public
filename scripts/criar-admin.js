@@ -1,7 +1,7 @@
 // Cria (ou atualiza a senha de) um usuário administrador.
 // Uso: node scripts/criar-admin.js usuario senha
 //
-// Exemplo: node scripts/criar-admin.js dono minhasenha123
+// Exemplo: node scripts/criar-admin.js dono "minhasenha123"
 
 require('dotenv').config();
 const bcrypt = require('bcryptjs');

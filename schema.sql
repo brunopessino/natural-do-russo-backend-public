@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS configuracoes (
   id INT PRIMARY KEY DEFAULT 1,
   nome_loja VARCHAR(120) DEFAULT 'Natural do Russo',
   logo VARCHAR(255),
-  whatsapp VARCHAR(20) DEFAULT '5521999999999',
+  whatsapp VARCHAR(20) DEFAULT '',
   endereco VARCHAR(255) DEFAULT 'Rio de Janeiro, RJ',
   pix_key VARCHAR(140) DEFAULT '',
   pix_name VARCHAR(25) DEFAULT 'Natural do Russo',
